@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Script to run multiple processes in one go
+
 declare -a SERVICE=("opendj" "wildfly")
 
 for i in "${SERVICE[@]}"
